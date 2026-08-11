@@ -1264,3 +1264,18 @@ MOBILE RESPONSIVE
 }
 
 }
+
+@media (max-width: 700px) {
+    .nav-links.mobile-open {
+        display: flex;
+        position: absolute;
+        top: 76px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        gap: 18px;
+        padding: 25px;
+        background: var(--bg-soft);
+        border-bottom: 1px solid var(--border);
+    }
+}
